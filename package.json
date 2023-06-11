@@ -1,0 +1,23 @@
+{
+  "name": "sara",
+  "version": "1.0.0",
+  "description": "whatsappbot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch --loader ts-node/esm src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olivério Júnior",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/qrcode-terminal": "^0.12.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^5.0.0",
+    "fastify": "^4.18.0",
+    "qrcode-terminal": "^0.12.0",
+    "venom-bot": "^5.0.1"
+  }
+}
